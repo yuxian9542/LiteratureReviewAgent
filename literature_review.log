@@ -1,0 +1,30 @@
+2025-08-03 13:00:01,255 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:01,255 - openai._base_client - INFO - Retrying request to /chat/completions in 0.453278 seconds
+2025-08-03 13:00:02,460 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:02,460 - openai._base_client - INFO - Retrying request to /chat/completions in 0.926250 seconds
+2025-08-03 13:00:03,956 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:04,586 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:04,587 - openai._base_client - INFO - Retrying request to /chat/completions in 0.429902 seconds
+2025-08-03 13:00:05,140 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:05,141 - openai._base_client - INFO - Retrying request to /chat/completions in 0.990078 seconds
+2025-08-03 13:00:06,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:06,845 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:06,846 - openai._base_client - INFO - Retrying request to /chat/completions in 0.469552 seconds
+2025-08-03 13:00:07,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:07,759 - openai._base_client - INFO - Retrying request to /chat/completions in 0.844095 seconds
+2025-08-03 13:00:08,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:08,871 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:08,872 - openai._base_client - INFO - Retrying request to /chat/completions in 0.402355 seconds
+2025-08-03 13:00:09,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:09,388 - openai._base_client - INFO - Retrying request to /chat/completions in 0.983507 seconds
+2025-08-03 13:00:10,448 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:10,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:10,558 - openai._base_client - INFO - Retrying request to /chat/completions in 0.391073 seconds
+2025-08-03 13:00:11,051 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 13:00:11,052 - openai._base_client - INFO - Retrying request to /chat/completions in 0.772430 seconds
+2025-08-03 13:00:12,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-03 15:08:43,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 15:08:53,916 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 15:09:13,056 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 15:09:18,203 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 15:09:22,585 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

@@ -1,0 +1,60 @@
+# Custom Prompt Templates
+# Edit this file to experiment with different prompts without touching code
+
+custom_v1:
+  system: "You are a helpful academic research assistant."
+  
+  summary: |
+    Summarize this academic paper in simple terms.
+    Make it accessible to a general audience.
+    
+    Text: {text}
+  
+  key_findings: |
+    What are the main discoveries in this paper?
+    List them clearly:
+    
+    Text: {text}
+
+experimental_roleplay:
+  system: "You are a peer reviewer for a top-tier academic journal. Be critical but constructive."
+  
+  summary: |
+    As a peer reviewer, provide a critical summary of this paper.
+    Consider:
+    - Novelty of the contribution
+    - Methodological rigor
+    - Clarity of presentation
+    - Significance to the field
+    
+    Text: {text}
+    
+  key_findings: |
+    Evaluate the key findings as a peer reviewer:
+    - Are the results convincing?
+    - Do they support the claims?
+    - Are there any concerns about validity?
+    
+    Text: {text}
+
+domain_specific:
+  # You can add domain-specific prompts here
+  machine_learning:
+    summary: |
+      Analyze this ML/AI paper focusing on:
+      - Algorithm novelty
+      - Performance metrics
+      - Computational complexity
+      - Practical applications
+      
+      Text: {text}
+  
+  medical:
+    summary: |
+      Summarize this medical research paper:
+      - Clinical significance
+      - Patient outcomes
+      - Safety considerations
+      - Treatment implications
+      
+      Text: {text}

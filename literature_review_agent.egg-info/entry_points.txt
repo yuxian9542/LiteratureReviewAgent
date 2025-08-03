@@ -1,0 +1,3 @@
+[console_scripts]
+literature-review = main:main
+litreview = main:main
