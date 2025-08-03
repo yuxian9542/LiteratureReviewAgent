@@ -11,7 +11,7 @@ from utils import setup_logging, clean_text, ProgressTracker, validate_output_fo
 from config import config
 
 @click.command()
-@click.option('--input', '-i', required=True, help='PDF file path or URL')
+@click.option('--input', '-i', help='PDF file path or URL')
 @click.option('--output', '-o', help='Output file for analysis')
 @click.option('--format', '-f', default='text', help='Output format: text, markdown, json')
 @click.option('--analyze', is_flag=True, help='Perform AI-powered analysis (requires OpenAI API key)')
@@ -38,6 +38,12 @@ def main(input, output, format, analyze, verbose, prompt_version, custom_prompts
                 click.echo(f"  - {config_name} (tasks: {', '.join(tasks)})")
         else:
             click.echo("  (none found)")
+        return
+    
+    # Require input unless listing prompts
+    if not input and not list_prompts:
+        click.echo("Error: Missing option '--input' / '-i'.")
+        click.echo("Try 'litreview --help' for help.")
         return
     
     # Setup logging
